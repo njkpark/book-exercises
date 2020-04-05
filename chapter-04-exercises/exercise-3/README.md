@@ -8,3 +8,9 @@ In your `README.md` document, provide some information about a terminal command 
 - A _list_ of information about the command (i.e., things that it does, or how it can be used).
 
 Note that you can preview this Markdown in Atom to make sure it works correctly.
+
+# Change Directory
+> ex. cd desktop 
+
+- Changes the directory of the command line path
+- Can go back a directory (cd ..)
