@@ -17,6 +17,7 @@ ten <- add_three(7)
 imperial_to_metric <- function(feet, inches) {
   feet_to_inches <- feet * 12 + inches
   meters <- feet_to_inches / 39.3701
+  return(meters)
 }
 
 # Create a variable `height_in_meters` by passing your height in imperial to the
