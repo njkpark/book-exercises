@@ -36,7 +36,8 @@ paste(letters_unique)
 # occurs in the provided vector.
 # Hint: use a filter operation!
 count_occurrences <- function(letter, vector_letters) {
-  length(vector_letters[vector_letters == letter])
+  length <- vector_letters[vector_letters == letter]
+  return(length)
 }
 
 # Call your `count_occurrences()` function to see how many times the letter 'e'
@@ -49,6 +50,6 @@ count_occurrences("e", letters)
 ?frequency
 ?sapply
 frequencies <- as.list(sapply(letters_unique, count_occurrences, letters))
-paste(frequencies)
+
 # Print the resulting list of frequencies
 print(frequencies)
