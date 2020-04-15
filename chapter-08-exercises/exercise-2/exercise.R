@@ -36,8 +36,8 @@ paste(letters_unique)
 # occurs in the provided vector.
 # Hint: use a filter operation!
 count_occurrences <- function(letter, vector_letters) {
-  length <- vector_letters[vector_letters == letter]
-  return(length)
+  subsets <- vector_letters[letter == vector_letters]
+  return(length(subsets))
 }
 
 # Call your `count_occurrences()` function to see how many times the letter 'e'
