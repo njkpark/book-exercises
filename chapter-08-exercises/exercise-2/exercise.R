@@ -53,3 +53,6 @@ frequencies <- as.list(sapply(letters_unique, count_occurrences, letters))
 
 # Print the resulting list of frequencies
 print(frequencies)
+
+library(lintr)
+lint("analysis.R")
