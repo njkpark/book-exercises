@@ -1,11 +1,8 @@
 # Exercise 2
 In this exercise, you'll practice resolving a merge conflict.
 
-<<<<<<< HEAD
 > "With great power comes great responsibility"
-=======
 > "Warning!"
->>>>>>> danger
 
 To complete the exercise, follow the below steps:
 
